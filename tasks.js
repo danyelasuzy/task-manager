@@ -46,14 +46,13 @@ function log(message, color = "white") {
   console.log(colors[color](message));
 }
 
-// Sound functions
+//Functions for sound
 function interfaceSound() {
   soundPlayer.play("./sounds/interface.mp3", (err) => {
     if (err) console.error("Error playing sound:", err);
   });
 }
 
-//Functions for sound
 function errorSound() {
   soundPlayer.play("./sounds/error.mp3", (err) => {
     if (err) console.error("Error playing sound:", err);
