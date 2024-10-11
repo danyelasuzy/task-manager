@@ -1,0 +1,19 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "A simple command-line task manager application built with Node.js and MySQL. This application allows users to manage tasks with features such as adding, viewing, filtering, searching, and marking tasks as done.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.11.3",
+    "play-sound": "^1.1.6"
+  }
+}
