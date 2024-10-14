@@ -148,6 +148,7 @@ async function deleteTasks() {
     log("❌ Error deleting task:", "red", err);
     errorSound();
   }
+  await menuInterface();
 }
 
 async function markDone() {
